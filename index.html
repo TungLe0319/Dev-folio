@@ -34,8 +34,24 @@
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
 </head>
+<style>
+  body.debug .container,
+  body.debug .container-fluid {
+    outline: 2px double blue;
+    outline-offset: -2px;
+  }
 
-<body>
+  body.debug .row {
+    outline: 2px dashed red;
+    outline-offset: -2px;
+  }
+
+  body.debug [class*="col-"] {
+    outline: 2px dotted forestgreen;
+    outline-offset: -3px;
+  }
+</style>
+<body class="">
 
   <!-- ======= Mobile nav toggle button ======= -->
   <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
@@ -183,130 +199,96 @@
       <div class="container">
 
         <div class="section-title">
-          <h2>Skills</h2>
+          <h2>Skills, Languages and Technologies</h2>
           <p>Thanks to <a href="https://boisecodeworks.com/">CodeWorks </a> I have been involved in over 500+ hours of live coding and usage of a diverse range of languages and frameworks while completing projects.</p>
         </div>
 
         <div class="row skills-content">
-
-          <div class="col-lg-6" data-aos="fade-up">
-
-            <div class="progress">
-              <span class="skill">HTML5<img class="img-fluid fs-6" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg" width="40" height="40"> <i class="val">100%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
+          <div class="col-lg-12 d-flex justify-content-around mb-4 ">
+   <div class=" ">
+              <span class="skill flex-column d-flex"><img class="img-fluid fs-6" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg" width="80" height="80" title="HTML 5"></span>
+           
             </div>
 
-            <div class="progress">
-              <span class="skill">CSS3
-                <img class="img-fluid fs-6" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg" width="40" height="40">
-                <i class="val">90%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
+            <div class="">
+              <span class="skill">
+                <img class="img-fluid fs-6" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg" width="80" height="80" title="CSS3">
+          
+          
             </div>
 
-            <div class="progress">
-              <span class="skill">JavaScript ES6
-                <img class="img-fluid fs-6" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" width="40" height="40">
-                <i class="val">75%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
+            <div class="">
+              <span class="skill">
+                <img class="img-fluid fs-6" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" width="80" height="80" title="JavaScript ES6">
+          
+         
             </div>
-            <div class="progress">
-              <span class="skill">Node.js
-                <img class="img-fluid fs-6" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-plain.svg" width="40" height="40">
-                <i class="val">75%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
+            <div class="">
+              <span class="skill">
+                <img class="img-fluid fs-6" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-plain.svg" width="80" height="80" title="Node.JS">
+           
+          
             </div>
-            <div class="progress">
-              <span class="skill">C# 
-                <img class="img-fluid fs-6" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-plain.svg" width="40" height="40">
-                <i class="val">75%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
+            <div class="">
+              <span class="skill"> 
+                <img class="img-fluid fs-6" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-plain.svg" width="80" height="80" title="C-Sharp">
+          
+        
             </div>
-            <div class="progress">
-              <span class="skill">Vue.js 
-                <img class="img-fluid fs-6" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-plain-wordmark.svg" width="40" height="40">
-                <i class="val">75%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
+            
+            <div class="">
+              <span class="skill"> 
+                <img class="img-fluid fs-6" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-plain-wordmark.svg" width="80" height="80" title="Vue.js 3">     
             </div>
-            <div class="progress">
-              <span class="skill">Bootstrap 
-                <img class="img-fluid lang-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original-wordmark.svg" width="40" height="40">
-                <i class="val">75%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
+
+            <div class="">
+              <span class="skill">
+                <img class="img-fluid lang-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original-wordmark.svg" width="80" height="80" title="Bootstrap 5">         
             </div>
 
           </div>
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-
-      
-
-            <div class="progress">
-              <span class="skill">MySQL 
+<div class="col-lg-12 d-flex justify-content-around mt-4">
+  
+            <div class="">
+              <span class="skill">
                 
-                <img class="img-fluid fs-6" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-plain-wordmark.svg" width="40" height="40">
-                <i class="val">90%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
+                <img class="img-fluid fs-6" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-plain-wordmark.svg" width="80" height="80" title="MySQL">
+               
+            
             </div>
 
-            <div class="progress">
-              <span class="skill">SCRUM/Agile 
-                <img src="https://nschoenmaker.nl/wp-content/uploads/2014/01/scrum-org-logo.png" alt="" width="40" height="40">
-                <i class="val">55%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
+            <div class="">
+              <span class="skill"> 
+                <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.logolynx.com%2Fimages%2Flogolynx%2F37%2F37ed00735a2146044f6524823701d96c.jpeg&f=1&nofb=1&ipt=9ba77929ffaff581da648983d87c8201ee5426f3bf1e33642d8136c4ae6cd953&ipo=images" alt="" width="90" height="90" title="SCRUM">
+               
+           
             </div>
-            <div class="progress">
-              <span class="skill">MongoDb
-                <img class="img-fluid fs-6" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-plain-wordmark.svg" width="40" height="40">
-                <i class="val">55%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
+            <div class="">
+              <span class="skill">
+                <img class="img-fluid fs-6" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-plain-wordmark.svg" width="80" height="80" title="MongoDb">
+               
+           
             </div>
-            <div class="progress">
-              <span class="skill"> Git 
-                <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.freebiesupply.com%2Flogos%2Flarge%2F2x%2Fgit-icon-logo-png-transparent.png&f=1&nofb=1&ipt=b308bfba05a76bcdf2bc582ad5cacaad0a57319d8663d56b8f4c62f5651790ff&ipo=images" alt="" height="40" width="40">
-                <i class="val">55%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
+            <div class="">
+              <span class="skill"> 
+                <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.freebiesupply.com%2Flogos%2Flarge%2F2x%2Fgit-icon-logo-png-transparent.png&f=1&nofb=1&ipt=b308bfba05a76bcdf2bc582ad5cacaad0a57319d8663d56b8f4c62f5651790ff&ipo=images" alt="" height="80" width="80" title="Git">
+               
+           
             </div>
-            <div class="progress">
-              <span class="skill"> GitHub 
-                <img src="https://seeklogo.com/images/G/github-logo-5F384D0265-seeklogo.com.png" alt="" width="40" height="40">
-                <i class="val">55%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
+            <div class="">
+              <span class="skill"> 
+                <img src="https://seeklogo.com/images/G/github-logo-5F384D0265-seeklogo.com.png" alt="" width="80" height="80" title="GitHub">
+               
+         
             </div>
-            <div class="progress">
-              <span class="skill"> Figma
-                <img class="img-fluid fs-6" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" width="40" height="40">
-                <i class="val">55%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
+            <div class="">
+              <span class="skill">
+                <img class="img-fluid fs-6" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" width="80" height="80" title="Figma">
+              
+         
             </div>
-
-          </div>
-
+</div>
+   
         </div>
 
       </div>
@@ -318,19 +300,18 @@
 
         <div class="section-title">
           <h2>Resume</h2>
-          <!-- <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p> -->
         </div>
 
         <div class="row">
           <div class="col-lg-6" data-aos="fade-up">
-            <h3 class="resume-title">Sumary</h3>
+            <h3 class="resume-title">Summary</h3>
             <div class="resume-item pb-0">
               <h4>Tung le</h4>
-              <p><em>Experienced CodeWorks graduate with extensive background in various coding languages, developing mobile applications, and building websites from the ground up. Specializes in JavaScript and Vue.js. Professional strengths include creative problem-solving, written and verbal communication, and time management. Detail-oriented mindset from 5+ years of experience in customer service and food industry.</em></p>
+              <p><em>Experienced CodeWorks graduate with a background in various coding languages, developing mobile applications, and building websites from the ground up. Specializes in JavaScript and Vue.js. Professional strengths include creative problem-solving,verbal communication,time management, and teamwork. Detail-oriented mindset from 5+ years of experience in customer service and food industry.</em></p>
               <ul>
                 <li>Meridian ID, US</li>
                 <li>(208) 890-5308</li>
-                <li>tungle0319@gmail.com</li>
+              <li> <a href="MailTo:tung.le0319@gmail.com">tung.le0319@gmail.com    </a></li>
               </ul>
             </div>
 
@@ -361,9 +342,10 @@
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
             <h3 class="resume-title"> Relevant Professional Experience</h3>
             <div class="resume-item">
-              <h4>Full-Stack Software Developer</h4>
-              <h5>2019 - Present</h5>
-              <p><em>Experion, New York, NY </em></p>
+              <h4>Grocery Store cook, cashier,customer service desk, produce, meat and cheese, grocery Associate</h4>
+              <h5>2017- 2021</h5>
+              <p><em>Boise Co-op  2350 N. Eagle Road
+Meridian, ID</em></p>
               <ul>
                 <li>Lead in the design, development, and implementation of the graphic, layout, and production communication materials</li>
                 <li>Delegate tasks to the 7 members of the design team and provide counsel on all aspects of the project. </li>
@@ -372,9 +354,9 @@
               </ul>
             </div>
             <div class="resume-item">
-              <h4>Graphic design specialist</h4>
-              <h5>2017 - 2018</h5>
-              <p><em>Stepping Stone Advertising, New York, NY</em></p>
+              <h4>Ware house worker</h4>
+              <h5>2021 - 2022</h5>
+              <p><em>Amazon/ Keller leisure supply</em></p>
               <ul>
                 <li>Developed numerous marketing programs (logos, brochures,infographics, presentations, and advertisements).</li>
                 <li>Managed up to 5 projects or tasks at a given time while under pressure</li>
@@ -509,7 +491,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 portfolio-item filter-static">
+          <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-static">
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/BootstrapCloneSite.png" class="img-fluid" alt="">
               <div class="portfolio-links">
@@ -517,7 +499,7 @@
                 <a href="https://tungle0319.github.io/BootstrapCloneSite1/" title="More Details" target="_blank"><i class="bx bx-link"></i></a>
               </div>
             </div>
-          </div>
+          </div> -->
 
         </div>
 
@@ -658,12 +640,15 @@
 
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact">
-      <div class="container">
+      <div class="container ">
 
-        <div class="section-title">
-          <a href="MailTo:tungle0319@gmail.com">    <h2>Contact Me</h2></a>
+        <div class="section-title text-center">
+           <h1>Contact Me</h1>
+         <div class="text-start">
+
+           <h5>Want to get in contact with me or inquire about working with me please send me an   <a href="MailTo:tungle0319@gmail.com " class=""> email  </a>   leave a brief message and i will get back to you as soon as possible.</h5>
+         </div>
       
-          <h5>Want to get in contact with me or inquire about working with me please send me an email leave a breif message and i will get back to you as soon as possible.</h5>
         </div>
 
         <!-- <div class="row" data-aos="fade-in">
