@@ -235,6 +235,7 @@ h6 {
   background: url("../img/Tungle/Tung\ Le.4.jpg")  ;
   background-position: 200px 13%;
   background-size: cover;
+  background-repeat: no-repeat;
 
 }
 
