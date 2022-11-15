@@ -525,6 +525,7 @@ section {
 --------------------------------------------------------------*/
 .portfolio .portfolio-item {
   margin-bottom: 30px;
+  
 }
 
 .portfolio #portfolio-flters {
@@ -532,9 +533,10 @@ section {
   margin: 0 auto 35px auto;
   list-style: none;
   text-align: center;
-  background: #fff;
+  background: #040b14;
   border-radius: 50px;
   padding: 2px 15px;
+
 }
 
 .portfolio #portfolio-flters li {
@@ -545,7 +547,7 @@ section {
   font-weight: 600;
   line-height: 1;
   text-transform: uppercase;
-  color: #272829;
+  color: #cdd4db;
   margin-bottom: 5px;
   transition: all 0.3s ease-in-out;
 }
@@ -564,6 +566,7 @@ section {
   position: relative;
   overflow: hidden;
   z-index: 1;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 
 .portfolio .portfolio-wrap::before {
@@ -589,6 +592,7 @@ section {
   transition: all ease-in-out 0.3s;
   display: flex;
   justify-content: center;
+  border-radius: 4px;
 }
 
 .portfolio .portfolio-wrap .portfolio-links a {
@@ -598,10 +602,11 @@ section {
   background: rgba(20, 157, 221, 0.75);
   transition: 0.3s;
   width: 50%;
+  
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  background: rgba(20, 157, 221, 0.95);
+  background: #040b14
 }
 
 .portfolio .portfolio-wrap .portfolio-links a+a {
@@ -613,7 +618,7 @@ section {
   left: 0;
   right: 0;
   bottom: 0;
-  opacity: 1;
+  opacity: 0.5;
 }
 
 .portfolio .portfolio-wrap:hover .portfolio-links {
@@ -1117,4 +1122,12 @@ section {
 }
 .carouselText{
   line-height: 2em;
+}
+.aboutmeText{
+  letter-spacing: 0.10em;
+  line-height: 2em;
+}
+.projectImg{
+border-radius: 4px;
+box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
