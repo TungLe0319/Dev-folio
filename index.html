@@ -74,8 +74,9 @@
 
       <nav id="navbar" class="nav-menu navbar">
         <ul>
-          <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
+          <!-- <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li> -->
           <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
+          <li><a href="#skills" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Skills</span></a></li>
           <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
           <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
         </ul>
@@ -84,22 +85,37 @@
   </header><!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex flex-column justify-content-end align-items-center">
-    <div class="hero-container" data-aos="fade-in">
+  <section id="hero" class="d-flex flex-column justify-content-end align-items-center pb-0">
+     <video id="heroVideo" autoplay loop muted src="./assets/img/pexels-rostislav-uzunov-7385122.mp4" type="video/mp4"
+   class="d-flex flex-column justify-content-end align-items-center position-relative">
+
+</video>
+    <div class="hero-container position-absolute bottom-50" data-aos="fade-in">
       <h1>Tung Le</h1>
       <p> <span class="typed" data-typed-items="Developer, Artist, Puzzle Lover,Gym and health enthusiast , Curious Individual"></span></p>
     </div>
-  </section><!-- End Hero -->
+    <div class="hero-container position-absolute bottom-0" data-aos="fade-in">
+
+    </div>
+  </section>
+
+
+
+
+
+
 
   <main id="main">
 
     <!-- ======= About Section ======= -->
-    <section id="about" class="about">
+    <section id="about" class="about pt-2">
       <div class="container">
 
         <div class="section-title">
           <h2>About me</h2>
-        
+         <div class="hero-container" data-aos="fade-in">
+
+    </div>
         </div>
 
         <div class="row">
@@ -109,13 +125,14 @@
 
     
 
-<div class="col-lg-8 pt-4 pt-lg-0 content px-5">
-  <h5 class="px-5 aboutmeText">
+<div class="col-lg-8 pt-4 pt-lg-0 content px-5 d-flex align-items-center">
+  <p class="px-5 aboutmeText">
+    
             Hello my name is Tung Le and welcome to my landing page! 
             I'm a full-stack software developer with a passion for creativity, problem solving and learning something new every day.
             I immediately fell in love with coding the moment i started with "Hello World!" I  was instantly  hooked. I've now come to build full-stack applications using a variety of languages,frameworks,and tools referenced below.
             I have a passion for everything in software development from the design aspects of the frontend to the logic and puzzles of the backend both equally satisfying to overcome the challenges each has. More importantly I have a passion for working with people that share the same love for problem-solving, and love of code!
-        </h5>
+        </p>
 </div>
 
         </div>
@@ -228,6 +245,14 @@
         </div>
 
       </div>
+      <div class="container"> 
+<div class="section-title">
+          <h3>Other Technologies and skills</h3>
+         
+        </div>
+
+
+      </div>
     </section>
 
 
@@ -287,7 +312,7 @@
               <img src="assets/img/portfolio/TowerSS.png" class="img-fluid projectImg" alt="">
               <div class="portfolio-links">
                 <a href="assets/img/portfolio/TowerSS.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Tower! An app for those wanting to attend  or create specific events that are openly displayed where other users can choose a sloted time to attend and given a ticket unique to them. each event has a detailed page that provides all the necessary information to hook a user into grabbing a ticket, cancelled events are displayed and are able to view details of but users cannot get a ticket to a cancelled event."><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"
+                <a href="https://thetower-f4he.onrender.com/" title="More Details"
                 target="_blank"><i class="bx bx-link"></i></a>
               </div>
             </div>
