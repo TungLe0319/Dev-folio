@@ -239,7 +239,7 @@ h6 {
   top:100px;
 }
 #hero {
-  width: 100vw;
+  width: auto;
 
 
   background-size: cover;
